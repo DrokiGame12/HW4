@@ -1,3 +1,5 @@
 from art import tprint
-tprint("PYTHON")
-
+from class1 import NewHello
+# tprint("PYTHON")
+python = NewHello("PYTHON")
+tprint(python.str)
